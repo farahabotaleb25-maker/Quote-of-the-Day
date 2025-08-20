@@ -1,0 +1,43 @@
+body {
+    background-image: url("images/pexels-nitin-arya-386173-1029141.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    color:  rgb(228, 164, 0);
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    margin-top: 35px;
+    color:rgb(255, 255, 255);
+}
+
+button {
+    color: #fff;
+    background-color: rgb(106, 85, 31);
+    width: 250px;
+    height: 80px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(228, 164, 0);
+    transition: 0.3s;
+}
+@media (max-width: 576px) {
+    body {
+        background-position: center top; 
+       
+    }
+}
